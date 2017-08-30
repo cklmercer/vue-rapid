@@ -1,0 +1,32 @@
+// White
+$white-ter:    #EEEEEE;
+$white-bis:    #F5F5F5;
+$white:        #FAFAFA;
+
+// Black
+$black:        #121212;
+$black-bis:    #212121;
+$black-ter:    #323232;
+
+// Grey
+$grey-lighter: #E0E0E0;
+$grey-light:   #BDBDBD;
+$grey:         #9E9E9E;
+$grey-dark:    #757575;
+$grey-darker:  #616161;
+
+// Rainbow
+$red:          #C62828;
+$orange:       #FFC107;
+$yellow:       #FFEB3B;
+$green:        #4CAF50;
+$blue:         #0288D1;
+
+// Theme
+$primary: #263238;
+$light: lighten($primary, 8%);
+$dark: darken($primary, 5%);
+$info: $blue;
+$success: $green;
+$warning: $orange;
+$danger: $red;

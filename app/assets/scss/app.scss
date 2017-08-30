@@ -1,0 +1,12 @@
+@import './variables/all';
+@import '~bulma';
+
+* {
+  overflow: hidden;
+  &::-webkit-scrollbar { width: 0 !important }
+}
+
+#app {
+  min-height: 100vh;
+  max-height: 100vh;
+}

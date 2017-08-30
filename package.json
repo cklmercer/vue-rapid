@@ -1,0 +1,23 @@
+{
+  "name": "vue-rapid",
+  "version": "0.0.1",
+  "description": "VueJS boilerplate",
+  "main": "app/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress --hide-modules --config build/build.js",
+    "start": "NODE_ENV=development webpack-dev-server --inline --hot --config build/build.js",
+    "shell": "electron shell"
+  },
+  "author": "Cody Mercer <dev@codymercer.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bulma": "^0.5.1",
+    "electron": "^1.7.5",
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0",
+    "vuex": "^2.4.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^1.4.2"
+  }
+}
